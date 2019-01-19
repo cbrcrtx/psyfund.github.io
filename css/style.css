@@ -462,10 +462,13 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .btn_three {
   font: 500 14px "Poppins", sans-serif;
   color: #fff;
-  background: #7444fd;
+  /*background: #7444fd;*/
+  background-image: -moz-linear-gradient(180deg, #3836bf 0%, #2d3275 100%);
+  background-image: -webkit-linear-gradient(180deg, #3836bf 0%, #2d3275 100%);
+  background-image: -ms-linear-gradient(180deg, #3836bf 0%, #2d3275 100%);
   border-radius: 3px;
   padding: 15px 30px;
-  border: 1px solid #7444fd;
+  border: 1px solid #1a195a;
   margin-top: 50px;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
@@ -2652,9 +2655,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /*====================================================*/
 /*================= Start breadcrumb_area css =================*/
 .breadcrumb_area {
-  background-image: -moz-linear-gradient(180deg, #5e2ced 0%, #a485fd 100%);
-  background-image: -webkit-linear-gradient(180deg, #5e2ced 0%, #a485fd 100%);
-  background-image: -ms-linear-gradient(180deg, #5e2ced 0%, #a485fd 100%);
+  /*background-image: -moz-linear-gradient(180deg, #5e2ced 0%, #a485fd 100%);*/
+  background-image: -moz-linear-gradient(180deg, #1a195a 0%, #171b52 100%);
+  /*background-image: -webkit-linear-gradient(180deg, #5e2ced 0%, #a485fd 100%);*/
+  background-image: -webkit-linear-gradient(180deg, #1a195a 0%, #171b52 100%);
+  /*background-image: -ms-linear-gradient(180deg, #5e2ced 0%, #a485fd 100%);*/
+  background-image: -ms-linear-gradient(180deg, #1a195a 0%, #171b52 100%);
   position: relative;
   z-index: 1;
   padding: 235px 0px 125px;
@@ -9714,7 +9720,7 @@ input[type=number]::-webkit-inner-spin-button {
 .blog_content .post_date h2 {
   font: 700 30px/20px "Poppins", sans-serif;
   margin-bottom: 0px;
-  color: #5e2ced;
+  color:#2a246f;
   padding-top: 5px;
 }
 
@@ -9781,9 +9787,9 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .blog_single .blockquote {
-  color: #5e2ced;
+  color: #2a246f;
   font-style: italic;
-  border-left: 4px solid #5e2ced;
+  border-left: 4px solid #01036f;
   padding-left: 35px;
 }
 
